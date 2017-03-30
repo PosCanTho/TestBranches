@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0447C8301E8CB84D00FF89B1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447C82F1E8CB84D00FF89B1 /* File.swift */; };
 		F59D231B1E8CB55E00656350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D231A1E8CB55E00656350 /* AppDelegate.swift */; };
 		F59D231D1E8CB55E00656350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D231C1E8CB55E00656350 /* ViewController.swift */; };
 		F59D23201E8CB55E00656350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59D231E1E8CB55E00656350 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0447C82F1E8CB84D00FF89B1 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		F59D23171E8CB55E00656350 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59D231A1E8CB55E00656350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F59D231C1E8CB55E00656350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F59D23261E8CB55E00656350 /* LaunchScreen.storyboard */,
 				F59D23291E8CB55E00656350 /* Info.plist */,
 				F59D23211E8CB55E00656350 /* Test.xcdatamodeld */,
+				0447C82F1E8CB84D00FF89B1 /* File.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59D231D1E8CB55E00656350 /* ViewController.swift in Sources */,
+				0447C8301E8CB84D00FF89B1 /* File.swift in Sources */,
 				F59D231B1E8CB55E00656350 /* AppDelegate.swift in Sources */,
 				F59D23231E8CB55E00656350 /* Test.xcdatamodeld in Sources */,
 			);
@@ -516,6 +520,7 @@
 				F59D23441E8CB55E00656350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59D23451E8CB55E00656350 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				F59D23471E8CB55E00656350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59D23481E8CB55E00656350 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				F59D234A1E8CB55E00656350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
